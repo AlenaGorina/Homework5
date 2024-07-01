@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  max-width: 1500px;
+  color: deeppink;
+  text-align: center;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: darkslateblue;
+}
+
+.wrapper {
+  padding: 50px auto;
+  background: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 400px;
+  height: 200px;
+  background: url("img/image00-1.jpg") 50% / cover no-repeat;
+  border: 10px solid white;
+}
+
+.photo_2 {
+  width: 400px;
+  height: 200px;
+  background: url("img/unnamed.jpg") 50% / cover no-repeat;
+  border: 20px solid white;
+}
+
+.photo_3 {
+  width: 400px;
+  height: 200px;
+  background: url("img/article_image_93.jpg") 50% / cover no-repeat;
+  border: 20px solid white;
+}
+
+.text {
+  text-align: center;
+  background-color: deepskyblue;
+}
+
+.galery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.galery_photo_1 {
+  width: 300px;
+  height: 200px;
+  background: url("img/istockphoto-1353913402-612x612.jpg") 50% / cover
+    no-repeat;
+  margin: 10px;
+}
+
+.galery_photo_2 {
+  width: 300px;
+  height: 200px;
+  background: url("img/png-klev-club-pvi0-p-volshebnik-png-23.png") 50% / cover
+    no-repeat;
+  margin: 10px;
+}
+
+.galery_photo_3 {
+  width: 300px;
+  height: 200px;
+  background: url("img/images.jpeg") 50% / cover no-repeat;
+  margin: 10px;
+}
+
+.galery_photo_4 {
+  width: 300px;
+  height: 200px;
+  background: url("img/image00-1.jpg") 50% / cover no-repeat;
+  margin: 10px;
+}
+
+.photo_2:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.photo:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
